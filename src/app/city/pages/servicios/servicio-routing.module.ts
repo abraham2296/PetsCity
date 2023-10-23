@@ -43,7 +43,7 @@ const routes: Routes = [
       },
       {
         path: '**',
-        redirectTo: 'Servicios'
+        redirectTo: 'servicio'
       },
     ]
   }

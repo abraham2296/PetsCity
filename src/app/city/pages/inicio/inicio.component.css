@@ -78,6 +78,7 @@ video{
     width: 250px;
     flex-basis: 100px;
     flex-grow: 1;
+    cursor: pointer;
 }
 
 /* BANNER INTEGRAL */

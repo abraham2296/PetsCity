@@ -130,6 +130,7 @@
     height: 150px;
     width: 150px;
     margin-top: 3rem;
+    cursor: pointer;
 }
 .h2-card{
     font-size: 1.7rem;
