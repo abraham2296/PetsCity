@@ -1,0 +1,191 @@
+/* .servicios{} */
+
+.encabezado{
+    background-image: url(/assets/img/BanSerGene.PNG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    height: 915px;
+}
+.article{
+    margin: 1rem 3rem 10px 3rem;
+}
+.article-doble{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5rem;
+}
+/* .img-article{}
+.text-serv{} */
+.p-text{
+    font-size: 1.2rem;
+    text-align: end;
+    color: #808094;
+}
+.line-serv{
+    height: 6px;
+    width: 5rem;
+    background-color: #9880b9;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-left: 32rem
+}
+.cita-items{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 8rem ;
+}
+.item{
+    display: flex;
+    gap: 1.2rem;
+}
+.icon-item{
+    height: 30px;
+    width: 30px;
+}
+.p-item{
+   font-size: 1.2rem ;
+   color: #9880b9;
+}
+/* .item{} */
+/* .icon-item{} */
+.btn-cita{
+    height: 4rem;
+    width: 20rem;
+    background-color: #00b9ab;
+    border-radius: 0px 50px 50px 50px;
+    border-style: none;
+    color: #e9e9e9;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+
+}
+.btn-cita:hover{
+    color: #c0d088;
+    border-bottom: #9880b9 solid 3px;
+
+}
+/* BANNER */
+.banner-ser{
+    background-image: url(/assets/img/BanSERV\ 2.PNG.png);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: #e9e9e9;
+    text-align: center;
+}
+.h2-banner{
+    font-size: 4.5rem;
+    padding-top: 4rem;
+    margin-top: 3rem;
+}
+
+/* CARDS SERVICIOS */
+
+.h2-serv{
+    text-align: center;
+    color: #808094;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+}
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+.card{
+    text-align: center;
+    border-radius: 15px;
+    border-style: none;
+}
+.figure-card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.70);
+}
+.img-card{
+    height: 245px;
+    width: 377px;
+    transition: all 500ms ease-out;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    height: 245px;
+    width: 377px;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.ico-serv{
+    height: 150px;
+    width: 150px;
+    margin-top: 3rem;
+}
+.h2-card{
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: #9880b4;
+}
+.p-card{
+    font-size: 1.2rem;
+    color: #808094;
+}
+.figure-card:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+/* .contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ico-serv{
+    height: 150px;
+    width: 150px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.card figure {
+    position: relative;
+    height: 245px;
+    width: 377px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.70);
+}
+.card figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.card figure .capa{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+} */

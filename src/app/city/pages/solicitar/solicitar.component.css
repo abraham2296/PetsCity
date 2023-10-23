@@ -1,0 +1,105 @@
+.solicitar{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ENCABEZADP */
+
+.encabezado{
+    /* position: relative; */
+    background-image: url(/assets/img/BanSolicita.PNG.png);
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
+/* article */
+
+.text-solicitar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h2-text{
+    color: #808094;
+    font-size: 3.1rem;
+}
+.p-text{
+    text-align: center;
+    color: #808094;
+    font-size: 1.1rem;
+}
+.line-text{
+    height: 5px;
+    width: 6rem;
+    border-radius: 50px;
+    background-color: #9880b9;
+}
+
+/* FORMULARIO */
+.contenedor-formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+    margin-top: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 470px;
+    width: 470px;
+    row-gap: 3rem;
+    border-radius: 50px;
+    background-color: #00B9AB;
+}
+.input{
+    height: 55px;
+    width: 400px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #b8eee8;
+}
+.text-area{
+    height: 55px;
+    width: 400px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #b8eee8;
+}
+.btn-submit{
+    height: 35px;
+    width: 200px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #94a1dd;
+    color: #b8eee8;
+    margin-top: 2rem;
+}
+
+/* ICONOS */
+
+.contac-direc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    column-gap: 3.5rem;
+    margin-bottom: 2rem;
+}
+.icono-info{
+    width: 45px;
+}

@@ -1,0 +1,15 @@
+.items-circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 28%; */
+    /* margin: 0 auto; */
+    /* margin-top: 3rem; */
+  }
+  .circulo {
+    width: 32px;
+    height: 32px;
+    margin: 1.5rem;
+    border-radius: 30px;
+    background-color: #00b9ab;
+  }

@@ -1,0 +1,65 @@
+
+.encavezado{
+    background-image: url(/assets/img/BanConsj.PNG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 910px;
+}
+
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #b8eee8;
+    width: 480px;
+    height: 513px;
+    border-style: none;
+
+}
+.img-card{
+    height: 234px;
+    width: 451px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.70);
+
+}
+.text-card{
+    height: auto;
+    width: 451px;
+}
+.h3-card{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #808094;
+}
+.p-card{
+    text-align: center;
+    color: #808094;
+
+}
+.btn-card{
+    border-style: none;
+    height: 2rem;
+    width: 9rem;
+    background-color: #94a1dd;
+    color: #b8eee8;
+    border-radius: 50px;
+
+}
+.btn-card:hover{
+    color: #c0d088;
+    border-bottom: #9880b9 solid 2px;
+}

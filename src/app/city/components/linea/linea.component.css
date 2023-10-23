@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linea{
+    background-color: #9880b9;
+    color: #9880b9;
+    height: 5px;
+    width: 5rem;
+    border-radius: 10px;
+    margin: 4rem;
+    margin-bottom: 2rem;
+}

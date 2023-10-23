@@ -1,0 +1,342 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+video{
+    position: absolute;
+    width: 100%;
+}
+/* Navbar */
+.navbar{
+    position: absolute;
+    z-index: 2;
+}
+
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media screen and (max-width: 987px ) {
+    .logo{
+        display: none;
+    }
+}
+
+/* TEXTO DEL HEADER */
+.header-text {
+   margin-top: 34rem;
+   margin-left: 5rem;
+   color: #b8eee8;
+}
+.header-text h2{
+    font-size: 2.4rem;
+}
+.header-text p{
+    font-size: 1.3rem;
+}
+.line-tex-header{
+    height: 7px;
+    width: 5rem;
+    color: #E9E9E9;
+    background-color: #E9E9E9;
+    border-radius: 50px;
+}
+
+/* ARTICULO */
+.text-entrada{
+   text-align: center;
+   font-size: 20px;
+   color: #9880B9;
+}
+
+/* SECCION BOTONES SERVICIOS */
+.items{
+    margin-bottom: 5rem;
+}
+.text-cabecera{
+    text-align: center;
+    color: #808094;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 2rem;
+
+}
+.item-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 3rem;
+}
+.secc-btn_img{
+    width: 250px;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+/* BANNER INTEGRAL */
+.banner-integral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-image: url(/assets/img/BanGene.PNG.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.contenido-banner_integral{
+    color: #E9E9E9;
+}
+#text-banner-integral{
+    font-weight: 700;
+    font-size: 70px;
+}
+.pa-ba_secu{
+    font-size: 25px;
+}
+.line-banner_secun{
+    background-color: #E9E9E9;
+    height: 5px;
+    width: 5rem;
+    border-radius: 10px;
+}
+.logo-ban_sec{
+    width: 250px;
+    height: 200px;
+}
+@media screen and (max-width: 370px ) {
+    .banner-integral{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #text-banner-integral{
+        font-size: 30px;
+    }
+
+    .pa-ba_secu{
+        font-size: 15px;
+    }
+    .logo-ban_sec{
+        width: 150px;
+        height: 150px;
+    }
+  
+}
+
+/* Banners mascotas */
+.h2-mascotas{
+    text-align: center;
+    color: #808094;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.secc-pets{
+    margin: 6rem;
+}
+.b-mascotas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    gap: 10px;
+    margin: 2rem;
+}
+#perro{
+    grid-row: 1/3;
+    height: 444px;
+    width: 461px; 
+}
+#gato{
+    grid-column: 2/3;
+    height: 214px;
+    width: 347px;
+}
+#loro{
+    grid-column: 3/4;
+    height: 214px;
+    width: 347px;
+    border-radius: 10px;
+}
+#roedores{
+    grid-column: 2/4;
+    height: 219px;
+    width: 705px;
+}
+
+/* SECCION SERVICIOS */
+
+.cards {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5rem 5rem 3rem 7rem;
+}
+.img-hover {
+    width: 377px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.70);
+
+}
+.img-hover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 500ms ease-out;
+}
+.icon-hover{
+    height: 150px;
+    width: 150px;
+    margin-left: 110px;
+    margin-top: 3.5rem;
+}
+.cards figure .capa {
+    position: absolute;
+    top: 0;
+    width: 377px;
+    height: 240px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.cards figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.textHover {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #9880b4; 
+}
+.parraHover {
+      font-size: 1.3rem;
+      /* margin-top: 10px; */
+      /* margin-left: 2.5rem; */
+      /* margin-right: 2.5rem; */
+      color: #808094;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+.bott-serv {
+    width: 335px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #9880B9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.bott-serv:hover{
+    color: #C0D088;
+    border-bottom: #00b9ab solid 3px;
+
+}
+
+/* PUBLICIDAD */
+
+.publicidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+.icono-public{
+    width: 240px;
+}
+.h5-public{
+    color: black solid;
+}
+.p-public{
+    color: #808094;
+}
+
+/* TESTIMONIOS / SLIDER */
+
+.h2-slider{
+    text-align: center;
+    margin-top: 2rem;
+    color: #808094;
+    font-size: 3rem;
+}
+.tamano{
+    width: 700px;
+    margin-left: 23rem;
+}
+.img-carusel{
+    object-fit: cover;
+}
+.carousel-control-next{
+    margin-right: 1.5rem;
+}
+
+/* BANNER SOLICITAR */
+
+.solicitar{
+    background-image: url(/assets/img/Banner4.PNG.png);
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    /* margin-bottom: 3rem; */
+}
+.items-solicitar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50rem;
+    margin-top: 5rem;
+    color: #E9E9E9;
+    gap: 1rem;
+    z-index: 10;
+}
+.icono-solicitar{
+    width: 95px;
+}
+.h2-solicitar{
+    font-size: 50px;
+}
+.linea-solicitar{
+    width: 5rem;
+    height: 7px;
+    color: #E9E9E9;
+    background-color: #E9E9E9;
+    margin-top: -1rem;
+    border-radius: 50px;
+}
+.btn-solicitar{
+    border-style: none;
+    height: 4.5rem;
+    width: 20rem;
+    border-radius: 0 60px 60px 60px;
+    font-size: 2rem;
+    color:#9880B9;
+}
+.btn-solicitar:hover{
+    color: #C0D088;
+    border-bottom: #9880b9 solid 3px;
+
+}
+

@@ -1,10 +1,33 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { EntradaComponent } from './shared/entrada.component';
+
+const routes: Routes = [
+  {
+    path: 'auth',
+    loadChildren: () => import('./auth/auth.module').then( m => m.AuthModule)
+  },
+  {
+    path: 'city',
+    loadChildren: () => import('./city/city.module').then( m => m.CityModule)
+  },
+  {
+    path: 'entrada',
+    component: EntradaComponent
+  },
+  {
+    path: '**',
+    component: EntradaComponent
+  }
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes)
+  ],
+  exports: [
+    RouterModule
+  ]
 })
 export class AppRoutingModule { }
