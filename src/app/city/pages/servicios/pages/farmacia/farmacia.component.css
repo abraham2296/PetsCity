@@ -1,0 +1,51 @@
+/* .seccion-farcia{} */
+
+
+.encabezado{
+    background-image: url(/assets/img/BanFarm.PNG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 915px;
+}
+/* ////////////////////////////////////////// */
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+}
+.imgs-farma{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.img-farma-1{
+    width: 484px;
+    height: 447px;
+}
+.img-farma-2{
+    width: 483px;
+    height: 368px;
+}
+.text-farma{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.p-farma{
+    text-align: end;
+    font-size: 20px;
+    color: #808094;
+}
+.line-farma{
+    height: 6px;
+    width: 5rem;
+    border-radius: 50px;
+    background-color: #9880b9;
+}
+
+/* ////////////////////////////////////////// */
+/* .spam-solicita{} */

@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NabvarComponent } from './nabvar/nabvar.component';
 import { PuntosComponent } from './puntos/puntos.component';
 import { LineaComponent } from './linea/linea.component';
+import { SpamSolicitaComponent } from './spam-solicita/spam-solicita.component';
 
 
 
@@ -19,12 +20,14 @@ import { LineaComponent } from './linea/linea.component';
     NabvarComponent,
     PuntosComponent,
     LineaComponent,
+    SpamSolicitaComponent,
   ],
   exports: [
     FooterComponent,
     NabvarComponent,
     PuntosComponent,
-    LineaComponent
+    LineaComponent,
+    SpamSolicitaComponent
   ],
   imports: [
     CommonModule,

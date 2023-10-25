@@ -1,0 +1,54 @@
+/* .section-radiografia{} */
+
+.encabezado{
+    background-image: url(/assets/img/BanRadio.PNG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 915px;
+}
+/* /////////////////////////////////////////////// */
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+    margin-top: -3rem;
+}
+.imgs-radio{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+/* .img-radio-1{ */
+    /* width: 484px; */
+    /* height: 926px; */
+/* } */
+/* .img-radio-2{ */
+    /* width: 484px; */
+    /* height: 447px; */
+/* } */
+.text-radio{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.h2-radio{
+    color: #9080b9;
+    margin-bottom: 2rem;
+}
+.p-radio{
+    text-align: end;
+    font-size: 20px;
+    color: #808094;
+}
+.line-radio{
+    height: 6px;
+    width: 5rem;
+    border-radius: 50px;
+    background-color: #9880b9;
+}

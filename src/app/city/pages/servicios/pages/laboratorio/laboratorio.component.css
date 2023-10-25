@@ -1,0 +1,36 @@
+/* .section-laboratorio{} */
+
+.encabezado{
+    background-image: url(/assets/img/BanLabor.PNG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 915px;
+}
+/* ///////////////////////////////// */
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+}
+/* .img-labora{} */
+.text-labora{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.p-labora{
+    text-align: end;
+    font-size: 20px;
+    color: #808094;
+}
+.line-labora{
+    height: 6px;
+    width: 5rem;
+    border-radius: 50px;
+    background-color: #9880b9;
+}

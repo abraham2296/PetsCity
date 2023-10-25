@@ -1,0 +1,45 @@
+/* .section-vacunacion{} */
+
+.encabezado{
+    background-image: url(/assets/img/BanVacun.PNG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 915px;
+}
+/* ////////////////////////////////////////////// */
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+}
+.imgs-vacun{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-top: 0%;
+}
+/* .img-vacun-1{} */
+/* .img-vacun-2{} */
+.text-vacun{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 8rem;
+}
+.p-vacun{
+    text-align: end;
+    font-size: 20px;
+    color: #808094;
+}
+
+.line-vacun{
+    height: 6px;
+    width: 5rem;
+    border-radius: 50px;
+    background-color: #9880b9;
+}
