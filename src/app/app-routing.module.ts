@@ -12,14 +12,6 @@ const routes: Routes = [
     path: 'city',
     loadChildren: () => import('./city/city.module').then( m => m.CityModule)
   },
-  {
-    path: 'entrada',
-    component: EntradaComponent
-  },
-  {
-    path: '**',
-    component: EntradaComponent
-  }
 ];
 
 @NgModule({
